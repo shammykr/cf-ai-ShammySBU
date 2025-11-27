@@ -2,11 +2,6 @@ AI-powered chat application running entirely on Cloudflare’s edge network
 
 This project is a lightweight conversational AI assistant built using Workers AI, Cloudflare Workers, and KV storage. It demonstrates how to deploy an AI-driven application at Internet scale with low latency, serverless workflows, and persistent memory.
 
-✅ AI inference using Llama 3.3 on Workers AI
-✅ Workflow coordination via Cloudflare Workers
-✅ Chat UI powered directly from the Worker (no backend servers)
-✅ Per-user memory stored in Cloudflare KV
-
 Important technologies used:
 AI Language model - Workers AI(Llama 3.3)
 Request workflow - Cloudflare worker
