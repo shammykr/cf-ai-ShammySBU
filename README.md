@@ -10,15 +10,7 @@ Important technologies used:
 5. Deployment - Wrangler CLI
 
 Architecture:
-User (Browser)
-     ↓
-Cloudflare Worker (API + Routing)
-     ↓
-KV Storage (Memory per user)
-     ↓
-Workers AI (Llama 3.3 Inference)
-     ↓
-Response back to user
+User (Browser) -> Cloudflare Worker (API + Routing) ->  KV Storage (Memory per user) -> Workers AI (Llama 3.3 Inference) -> Response back to user
 
 How to Run?
 1. Install dependencies - npm install
