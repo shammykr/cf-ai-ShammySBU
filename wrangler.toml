@@ -1,0 +1,11 @@
+name = "cloudflare-ai-chat"
+main = "src/index.ts"
+compatibility_date = "2025-11-25"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "CHAT_HISTORY", id = "5004a256d0a04430a32e7dc9e2132005" }
+]
+
+[ai]
+binding = "AI"
